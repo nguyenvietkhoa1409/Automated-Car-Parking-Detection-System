@@ -14,16 +14,18 @@ In many urban environments, drivers spend valuable time circling parking lots se
 
 ---
 
-## 📂 Repository Structure
+<details>
+<summary>📁 Repository Structure</summary>
 
 Automated-Car-Parking-Detection-System/
-├── Car_parking_detection.ipynb # Interactive training and demo notebook
-├── data_collection.py # Code to capture and preprocess parking images
-├── train_data.zip # Labeled training dataset (download separately)
-├── car_test.zip # Test frames or image dataset (external source)
-├── carposition.pkl # Pickled configuration of parking slot regions
-├── requirements.txt # Dependencies (e.g. OpenCV, Flask, TensorFlow/PyTorch)
-├── main.py # Real-time detection pipeline code
-├── test.py # Evaluation and visualization tools
-└── README.md # Project documentation
+├── Car_parking_detection.ipynb
+├── data_collection.py
+├── train_data.zip
+├── car_test.zip
+├── carposition.pkl
+├── requirements.txt
+├── main.py
+├── test.py
+└── README.md
+</details>
 
