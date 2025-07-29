@@ -1,13 +1,27 @@
-# 🚗 Automated Car Parking Detection System  
+# Automated Car Parking Detection System 🚗
 
-## 📖 Introduction  
-This repository contains the implementation of an **AI-powered car parking detection system** that identifies available parking spaces in real-time video feeds. The project leverages **deep learning and computer vision** to process video frames, detect parking occupancy, and provide live updates through a web-based interface.  
+Welcome to the **Automated Car Parking Detection System**, built by **nguyenvietkhoa1409**. This repository presents a complete, AI-powered solution for **detecting available parking spaces** in real-time using computer vision and deep learning:contentReference[oaicite:2]{index=2}.
 
-## 🔍 What This Repository Covers  
-This repository documents the entire development process, including:  
-- **Deep Learning Model:** A **Convolutional Neural Network (CNN)** trained with image augmentation techniques to classify occupied and vacant parking spaces.  
-- **Computer Vision Pipeline:** OpenCV-based video processing, including bounding box annotation and real-time parking space classification.  
-- **Web Deployment:** A **Flask** application to serve the trained model and provide real-time detection results via a web interface.  
-- **Testing & Visualization:** Evaluation scripts to analyze model performance and visualize detection results.  
+---
 
-## 📂 Repository Structure  
+## 🌟 What Is This Project About?
+
+In many urban environments, drivers spend valuable time circling parking lots searching for an open space. This project leverages camera feeds and neural networks to automate that process.
+
+- **Deep Learning + Computer Vision**: A custom-trained CNN model classifies each predefined parking slot as *occupied* or *vacant* using image frames.
+- **Real-Time Performance**: The system can process live video streams for continuous monitoring of parking functionality.
+- **Web Interface Support**: With Flask integration, users can view parking status updates in real time via a lightweight web page:contentReference[oaicite:3]{index=3}.
+
+---
+
+## 📂 Repository Structure
+<code>Automated-Car-Parking-Detection-System/
+├── Car_parking_detection.ipynb ← Interactive training and demo notebook
+├── data_collection.py ← Code to capture and preprocess parking images
+├── train_data.zip ← Labeled training dataset (download separately)
+├── car_test.zip ← Test frames or image dataset (external source)
+├── carposition.pkl ← Pickled configuration of parking slot regions
+├── requirements.txt ← Dependencies (e.g. OpenCV, Flask, TensorFlow/PyTorch)
+├── main.py ← Real-time detection pipeline code
+├── test.py ← Evaluation and visualization tools
+└── README.md ← Project documentation</code>
