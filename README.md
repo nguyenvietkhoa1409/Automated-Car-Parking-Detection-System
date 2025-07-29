@@ -2,6 +2,12 @@
 
 Welcome to the **Automated Car Parking Detection System**, built by **nguyenvietkhoa1409**. This repository presents a complete, AI-powered solution for **detecting available parking spaces** in real-time using computer vision and deep learning:contentReference.
 
+## 🙏 Acknowledgments
+
+This project is inspired by and based on the work from [Chando0185/car_parking_detection_space_count](https://github.com/Chando0185/car_parking_detection_space_count).  
+Special thanks to the original author for the clear approach to parking space detection.
+
+
 ---
 
 ## 🌟 What Is This Project About?
