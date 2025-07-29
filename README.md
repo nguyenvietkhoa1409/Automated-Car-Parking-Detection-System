@@ -35,5 +35,6 @@ Automated-Car-Parking-Detection-System/
 ├── test.py # Evaluation and visualization tools
 └── README.md # Project documentation
 ```
-This is how final result looks like: 
-![Demo of Car Parking Detection](image/result screenshot.png)
+This is how final result looks like:  
+![Demo of Car Parking Detection](image/result%20screenshot.png)
+
